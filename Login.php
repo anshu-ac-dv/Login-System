@@ -7,8 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <form class="p-5 shadow bg-info" action="Users.php" method="post">
+    <?php
+      include "Header.php";
+    ?>
+    <div class="container mt-5">
+      <form class="p-5 shadow" action="Users.php" method="post">
         <center><h3>Login Now</h3></center>
         <div class="row g-3">
           <div class="col mb-3 mt-5">
@@ -21,7 +24,6 @@
           </div>
         </div>
         <button type="submit" name="login" class="btn btn-primary">Login Now</button><br><br>
-        <p>If you do not have any account then <a href="Register.php"> register</a> yourself.</p>
       </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

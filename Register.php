@@ -7,12 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-      <form class="form container mt-0 shadow p-5 bg-info" action="Submit.php" method="POST">
+  <?php
+  include "Header.php";
+  ?>
+      <form class="form container mt-5 shadow p-5 bg-" action="Submit.php" method="POST">
         <center><h3>Registration Form</h3></center>
         <div class="row g-3">
           <div class="col mb-3 mt-5">
             <label class="form-label">First Name</label>
-            <input type="text" class="form-control" require aria-label="First name" name="fname">
+            <input type="text" class="form-control" require aria-label="First name" name="fname" placeholder="First Name">
           </div>
           <div class="col mb-3 mt-5">
             <label class="form-label">Last Name</label>
@@ -82,7 +85,6 @@
         </div>
         
         <button type="submit" name="submit" class="btn btn-primary">Register Now</button>
-        <br><br><span>If you are already registred then<a href="Login.php"> login.</a></span>
       </form>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
