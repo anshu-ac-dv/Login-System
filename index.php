@@ -12,6 +12,45 @@
       <div class="row mt-5">
         <div class="col-md-6 mt-5">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_omixcbvz.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
+        <!-- <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_KEahK5k9Mf.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player> -->
+        </div>
+        <div class="col-md-5 mt-5 text-white">
+          <div class="card">
+            <div class="card-header bg-warning">
+              Enquiry
+            </div>
+            <div class="card-body bg-primary">
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter Your Enquiry" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <div class="col-md-6 mt-5">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_KEahK5k9Mf.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
         </div>
         <div class="col-md-5 mt-5">

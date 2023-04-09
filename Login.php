@@ -11,7 +11,7 @@
       include "Header.php";
     ?>
     <div class="container mt-5">
-      <form class="p-5 shadow" action="Users.php" method="post">
+      <form class="p-5 shadow bg-primary text-white" action="Users.php" method="post">
         <center><h3>Login Now</h3></center>
         <div class="row g-3">
           <div class="col mb-3 mt-5">
@@ -23,7 +23,7 @@
             <input type="password" class="form-control" name="password">
           </div>
         </div>
-        <button type="submit" name="login" class="btn btn-primary">Login Now</button><br><br>
+        <button type="submit" name="login" class="btn btn-danger">Login Now</button><br><br>
       </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
